@@ -19,7 +19,7 @@ public class OAuthToken {
 
 	@Override
 	public String toString() {
-		return String.format("OAuthToken: %s %s", key, secret);
+		return String.format("OAuthToken: TOKEN %s SECRET %s", key, secret);
 	}
 
 }
